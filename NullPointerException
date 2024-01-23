@@ -1,0 +1,7 @@
+try {
+    String str = null;
+    int length = str.length(); // Mencoba mengakses metode pada objek null
+    System.out.println("Panjang string: " + length);
+} catch (NullPointerException e) {
+    System.out.println("Terjadi NullPointerException: " + e.getMessage());
+}
