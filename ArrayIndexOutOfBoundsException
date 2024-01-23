@@ -1,0 +1,7 @@
+try {
+    int[] numbers = {1, 2, 3};
+    int value = numbers[5]; // Mengakses indeks di luar batas array
+    System.out.println("Nilai: " + value);
+} catch (ArrayIndexOutOfBoundsException e) {
+    System.out.println("Terjadi ArrayIndexOutOfBoundsException: " + e.getMessage());
+}
